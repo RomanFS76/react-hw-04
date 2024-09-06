@@ -1,0 +1,13 @@
+.gallaryWrap{
+    padding: 0 20px;
+}
+
+.gallaryList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.imageCard{
+    width: calc((100% - 3*20px)/4 );
+}
